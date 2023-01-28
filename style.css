@@ -1,0 +1,76 @@
+body {
+    background-color: hsl(183, 33%, 28%);
+    color: hsl(183, 60%, 57%);
+}
+
+h1, p {
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#main{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
+    height: 320px;
+    width: 320px;
+}
+
+.box {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-top: -2px;
+    margin-left: -7px;
+    border: 3px solid hsl(183, 60%, 57%);
+    display: inline-block;
+    text-align: center;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.tl {
+    border-top: 0px;
+    border-left: 0px;
+    margin-left: 9px;
+}
+
+.tm {
+    border-top: 0px;
+}
+
+.tr {
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.lm {
+    border-left: 0px;
+    margin-left: 9px;
+}
+
+.rm {
+    border-right: 0px;
+}
+
+.bl {
+    border-left: 0px;
+    border-bottom: 0px;
+    margin-left: 9px;
+}
+
+.bm {
+    border-bottom: 0px;
+}
+
+.br {
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+#b {
+    border: 2px solid ;
+}
